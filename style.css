@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  max-height: 100vh;
+  background-color: rgb(209, 209, 248);
+}
+
+.distortion {
+  display: flex;
+  width: 640px;
+  height: 100vh;
+}
+
+.intro {
+  align-self: center;
+}
+
+.intro h2{
+  font-size: 50px;
+}
+
+.intro p{
+  font-size: 25px;
+}
